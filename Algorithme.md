@@ -57,11 +57,51 @@ DEBUT
                         Sinon Si
                             prix1 > prix2
                             Alors 
-                            prix2 = numero ???????????????????????????
+                            prix2 = numero
 
 Exercice 7: Ecrire un algorithme qui demande un numéro de mois à l’utilisateur (1→12) et qui indique en retour son nom et le nombre de jours dans ce mois.
 
-                        ????????????????????????????????????????????
+                Variables: num'mois, nom, nbrejours
+DEBUT
+    Ecrire num'mois (1->12) 
+        Lire num'mois
+            Si num'mois = 1
+                Ecrire Janvier 31 jours
+            Finsi
+                Si num'mois = 2
+                    Ecrire  fevrier 28 jours
+                Finsi
+                    Si num'mois = 3
+                        Ecrire Mars 31 jours
+                    Finsi
+                        Si num'mois = 4
+                            Ecrire  Avril 30 jours
+                        Finsi
+                            Si num'mois = 5
+                                Ecrire Mai 31 jours
+                            Finsi
+             Si num'mois = 6
+                Ecrire  Juin 30 jours
+            Finsi
+                Si num'mois = 7
+                    Ecrire Juillet 31 jours
+                Finsi
+                    Si num'mois = 8
+                        Ecrire  Aout 31 jours
+                    Finsi
+                        Si num'mois = 9
+                            Ecrire Septembre 30 jours
+                        Finsi
+             Si num'mois = 10
+                Ecrire  Octobre 31 jours
+            Finsi
+                Si num'mois = 11
+                    Ecrire Novembre 30 jours
+                Finsi
+                    Si num'mois = 12
+                        Ecrire  Decembre 31 jours
+                    Finsi
+FIN
 
 Exercice 10 :Ecrire un algorithme qui affiche les nombres pairs jusqu’à 100.
 
